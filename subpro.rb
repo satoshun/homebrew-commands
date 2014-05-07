@@ -2,8 +2,8 @@ require 'formula'
 
 class Subpro < GithubGistFormula
   homepage 'https://github.com/satoshun/subpro'
-  url 'https://raw.githubusercontent.com/satoshun/subpro/master/subpro'
-  sha1 '8db75242d5f95522eb05df810f1c121e31c63b21'
+  url 'https://raw.githubusercontent.com/satoshun/subpro/v1.0/subpro'
+  sha1 '2c8479605c0c78fa0c5240b6c9d4cc2f04ed12bc'
 
   def install
     bin.install 'subpro'
