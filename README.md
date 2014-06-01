@@ -12,7 +12,10 @@ Management project of sublime text. (https://github.com/satoshun/subpro)
 
 ```shell
 $ brew install subpro
+
 $ brew install subpro-completion
+or
+$ brew install subpro-zcompletion
 ```
 
 ### sha1
