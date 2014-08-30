@@ -1,10 +1,10 @@
 require 'formula'
 
-class Subpro < GithubGistFormula
+class Subpro < Formula
   homepage 'https://github.com/satoshun/subpro'
   version 'v2.0.0'
   url 'https://raw.githubusercontent.com/satoshun/subpro/v2.0.0/pkg/darwin/subpro'
-  sha1 '9bc950cbfab26c5ededfc7be335a6e0c86da15d7'
+  sha1 '9d419e2ffb6fb6da54b84c34f988fa9d2907985b'
 
   def install
     bin.install 'subpro'
