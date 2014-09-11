@@ -2,9 +2,9 @@ require 'formula'
 
 class Subpro < Formula
   homepage 'https://github.com/satoshun/subpro'
-  version 'v2.0.0'
-  url 'https://raw.githubusercontent.com/satoshun/subpro/v2.0.0/pkg/darwin/subpro'
-  sha1 '9d419e2ffb6fb6da54b84c34f988fa9d2907985b'
+  version 'v2.0.1'
+  url 'https://raw.githubusercontent.com/satoshun/subpro/v2.0.1/pkg/darwin/subpro'
+  sha1 '75d537c54693d694641f6f578ee19569b09cd1b8'
 
   def install
     bin.install 'subpro'
