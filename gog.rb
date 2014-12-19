@@ -2,9 +2,9 @@ require 'formula'
 
 class Gog < Formula
   homepage 'https://github.com/satoshun/gog'
-  version 'v0.2.2'
-  url 'https://raw.githubusercontent.com/satoshun/gog/v0.2.2/pkg/darwin/gog'
-  sha1 '12387596ff2b67c46b9d454e23a933afc3d7ab63'
+  version 'v0.3.0'
+  url 'https://raw.githubusercontent.com/satoshun/gog/v0.3.0/pkg/darwin/gog'
+  sha1 '11da8fce984a4811e337f54c33b4448a69f73a96'
 
   def install
     bin.install 'gog'
