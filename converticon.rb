@@ -4,7 +4,7 @@ class Converticon < Formula
   homepage 'https://github.com/satoshun/android_icon'
   version 'v0.4.0'
   url 'https://raw.githubusercontent.com/satoshun/android_icon/v0.4.0/pkg/darwin/converticon'
-  sha1 'c05f7f7d787f65c5f93fd232f79417bcd8449b89'
+  sha256 '3bc93f5c25fe9391dfabc79435e2910fffebcad770eb1c54c4adfc425360c049'
 
   def install
     bin.install 'converticon'

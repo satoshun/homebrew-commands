@@ -4,7 +4,7 @@ class Subpro < Formula
   homepage 'https://github.com/satoshun/subpro'
   version 'v2.0.2'
   url 'https://raw.githubusercontent.com/satoshun/subpro/v2.0.2/pkg/darwin/subpro'
-  sha1 'de4da8de96b0acbe6aa5043922a56519bb298f83'
+  sha256 '992a990ab150c29177627f93cae5414ca8055b32cf8cfb7ef1f4d7a9401655db'
 
   def install
     bin.install 'subpro'

@@ -1,9 +1,9 @@
 require 'formula'
 
-class PullRequest < GithubGistFormula
+class PullRequest < Formula
   homepage 'https://github.com/satoshun/commands'
   url 'https://raw.githubusercontent.com/satoshun/commands/v1.0/pull_request'
-  sha1 'cfbb7967557b9ad101d8fe27008d349f98ed024c'
+  sha256 '44050d280333884b654f7edd1dcc0abca50eedf7aa022559a7254c6d2ee6c015'
 
   def install
     bin.install 'pull_request'
